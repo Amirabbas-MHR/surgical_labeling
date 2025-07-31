@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+  <style>
+    table.data {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    table.data th, table.data td {
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h2>Labeling Results</h2>
+  {{ table | safe }}
+</div>
+</body>
+</html>
